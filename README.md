@@ -4,7 +4,6 @@
 2. RESIDENTIALAREABOUNDARY
    │  ResidentialAreaBoundaryControl.py 主函数
    │  ResidentialAreaBoundaryFunc.py 方法库
-   │  
    ├─Auxiliary
    │  │  crawelFunc.py 辅助函数
    └─data
