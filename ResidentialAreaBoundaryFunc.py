@@ -46,6 +46,7 @@ def get_boundary_by_uid(uid):
     data = data.text
     data = json.loads(data)
     content = data['content']
+    # print(data)
     if not 'geo' in content:
         return None
     try:
@@ -93,9 +94,9 @@ def transform_coordinate_batch(coordinates, bmap_key):
 
 
 if __name__ == '__main__':
-    uid = get_residential_uid('新城香溢紫郡', '常州', 'wU3ZlXOKopbk78vjeZiSkDeo')
-    print(uid)
-    coord_bd09mc_list = get_boundary_by_uid(uid)
+    # uid = get_residential_uid('新城香溢紫郡', '常州', 'wU3ZlXOKopbk78vjeZiSkDeo')
+    # print(uid)
+    coord_bd09mc_list = get_boundary_by_uid('e4155a695f912ed6d72ce263')
     print(coord_bd09mc_list)
     coord_bd09_list = transform_coordinate_batch(coord_bd09mc_list, 'wU3ZlXOKopbk78vjeZiSkDeo')
     print(coord_bd09_list)
