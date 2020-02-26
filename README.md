@@ -2,7 +2,7 @@
 
 1. 数据源：[百度地图api](https://lbsyun.baidu.com/index.php?title=jspopular/guide/introduction)
 
-2. 目录树
+2. 项目结构
 ``` 
    RESIDENTIALAREABOUNDARY
    │  ResidentialAreaBoundaryControl.py 主函数
